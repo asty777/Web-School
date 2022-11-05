@@ -1,0 +1,247 @@
+body{
+    background-color:  antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a3a3a;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 16px 0px;
+    overflow: hidden;
+    background-color: #9E7676;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+    
+  li {
+    float: right;
+  }
+  
+  .logo {
+    float: left;
+  }
+    
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .logo-text{
+    font-style: italic;
+    font-size: 20px;
+  }
+    
+  li a:hover:not(.active) {
+    color: black;
+  }
+    
+  .active {
+    color: #580052;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul li {float: none;}
+    .logo {float: none;}
+  }
+
+  .navbar-brand img {
+    float: left;
+    height: 50px;
+  }
+
+  .content1 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+    background-image: url(img/wikrama.jpg);
+    color: white;
+    
+}
+
+.text1 {
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#tag {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+
+mark{
+  background: #AD8B73;
+  color: white;
+  padding: 10px 5px;
+  margin-bottom: 40px;
+}
+
+.content2 {
+  padding: 1% 12% 6% 12%;
+  background-color: white;
+  display:grid;
+  grid-template-columns: 50% 60%;
+}
+
+.text2 {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-main {
+  background-color: #CEAB93;
+  padding: 24px 60px;
+  color: white;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 100%;
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  .footer-grid {
+    padding-left: 20px;
+  }
+}
+
+.footer-grid p {
+  margin: 10px 0;
+}
+
+.content3 {
+  margin: 81px;
+}
+
+.content4 {
+    margin: 81px;
+    padding: 0px;
+ }
+
+ .content5 {
+  margin: 20px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.content6 {
+  margin: 81px;
+}
+
+.content7 {
+  display:grid;
+  grid-template-columns: 66% auto;
+  padding: 0 60px 60px 60px;
+  margin-top: 40px;
+}
+
+.text7 {
+  margin: 0 64px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.content8 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 300px;
+  background-color: white;
+  padding: 0 12%; 
+}
+
+.card {
+background-color: #f7f8f9;
+transition: 0.3s;
+width: 300px;
+min-height: 350px;
+padding: 32px;
+margin: 50px 0;
+text-align: center;
+}
+
+.card:hover {
+background-color: #fbcb7b;
+}
+
+.content9 {
+  display:grid;
+  grid-template-columns: 66% auto;
+  padding: 0 48px 48px 48px;
+  margin-top: 40px;
+  }
+  
+.text9 {
+   margin: 0 64px;
+   font-size: 18px;
+   display: flex;
+   align-items: center;
+  }
+
+
+.content10 {
+  margin: 81px;
+  padding: 32px;
+}
+
+.content11 {
+  display:grid;
+  grid-template-columns: 66% auto;
+  padding: 0 48px 48px 48px;
+  margin-top:40px;
+  }
+  
+.text11 {
+   margin: 0 64px;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+  }
+
+  .content12 {
+    margin: 51px;
+    padding: 22px;
+  }
+
+  .content13 {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 0 48px 48px 48px;
+    }
+    
+  .text13 {
+     margin: 0 64px;
+     font-size: 18px;
+     display: flex;
+     align-items: center;
+    }
+
+
+
+ 
